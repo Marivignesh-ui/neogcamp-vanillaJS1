@@ -1,0 +1,52 @@
+:root{
+    --primarycolor:#34D399;
+}
+body{
+    margin: 0%;
+    background-image: url("images/emoji-backgrounds.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;
+    text-align: center;
+}
+header{
+    padding:5px;
+    text-align: center;
+    background-color: var(--primarycolor);
+    width: 100%;   
+}
+
+.bt1{
+    background-color: var(--primarycolor);
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    margin-top: 3%;
+}
+button:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+textarea{
+    width: 60%;
+    height: 15%;
+    border: solid 2px rgb(27, 27, 1);
+    padding: 2%;
+    margin: 1%;
+    font-size: x-large;
+}
+footer{
+    background-color: var(--primarycolor);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding:5px;
+}
+.socialmedia{
+    color: black;
+    display: inline-block;
+    margin-left: 3px;
+}
+.head-socialmedia {
+    position: fixed;
+    right: 2px;
+}
