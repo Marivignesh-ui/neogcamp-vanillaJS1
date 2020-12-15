@@ -1,2 +1,2 @@
 # neogcamp-vanillaJS1
- emoji translator web app 
+ Emoji translator web app using funtranslation API.
